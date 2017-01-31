@@ -1,0 +1,30 @@
+{
+  "name": "paypal-rest-app",
+  "version": "1.0.0",
+  "description": "PayPal REST Application Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "rm -rf ./dist && babel src -d dist",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainerbill/paypal-rest-app.git"
+  },
+  "author": "Andrew Throener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trainerbill/paypal-rest-app/issues"
+  },
+  "homepage": "https://github.com/trainerbill/paypal-rest-app#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "paypal-rest-sdk": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8"
+  }
+}
