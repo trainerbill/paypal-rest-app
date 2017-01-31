@@ -2,7 +2,6 @@ import * as http from 'http';
 import * as path from 'path';
 import { app } from './express';
 import * as bodyParser from 'body-parser';
-import * as glob from 'glob';
 import './sdkconfig';
 import './routes/index';
 
